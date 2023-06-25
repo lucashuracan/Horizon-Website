@@ -744,8 +744,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
-  padding-bottom: 60px;
+  margin-top: 0;
+  padding-top: 140px;
+  padding-bottom: 140px;
   display: flex;
   position: relative;
 }
@@ -2690,6 +2691,11 @@
     width: 100%;
     height: auto;
     margin-top: 20px;
+  }
+
+  .pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .a-button-primary-square {
