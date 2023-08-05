@@ -162,7 +162,10 @@
 }
 
 .heading {
+  width: auto;
+  max-width: 600px;
   color: #fff;
+  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Outfit, sans-serif;
@@ -2117,7 +2120,7 @@
   background-color: #131316;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: none;
   position: fixed;
   top: 0%;
   bottom: 0%;
@@ -2643,6 +2646,7 @@
   }
 
   .heading {
+    width: auto;
     text-align: center;
     font-size: 2em;
     line-height: 2.5rem;
